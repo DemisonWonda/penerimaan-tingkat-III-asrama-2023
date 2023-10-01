@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+    calibri, 'trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #033b58;
+}
+.cotainer{
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgb(0, 0, 0. 0.1);
+}
+.login{
+    width: 400px;
+}
+form{
+    width: 250px;
+    margin: 60px auto;
+}
+h1{
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+hr{
+    border-top: 2px solid #ffa12c;
+}
+p{
+    text-align: center;
+    margin: 10px;
+}
+.right img{
+    width: 450px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+input{
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button{
+    border: none;outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #eadc1d;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #033b58;
+}
+button:hover{
+    background: rgb(214, 86, 64, 1);
+}
+h1{
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    font-size: 16px;   
+}
+h1 span{
+    color: #f6a800; 
+}
+p{
+padding: 8px;
+width: 252px;
+color: #040404;
+font-size: 16px;
+}
+h2{
+    padding: 10px;
+    width: 252px;
+    color: #000000;
+    font-size: 17px; 
+}
+a{
+    padding: 10px;
+    width: 252px;
+    color: #fef9f9;
+    font-size: 17px;  
+}
+ button nav {
+    padding: 10px;
+    width: 232px;
+    color: #fbfbff;
+    font-size: 10px;  
+    
+}
+button{
+    padding: 7px;
+    width: 235px;
+    color: #080808;
+    font-size: 15px;  
+    background-color: rgb(232, 173, 26);
+}
+
+button nav a{
+    padding: 7px;
+    width: 235px;
+    color: #0c05e3;
+    font-size: 16px;  
+
+}
+form h1{
+    color: #0c0c0c;
+}
+span a{
+    padding: 20px;
+    width: 100%px;
+    color: #060606;
+    font-size: 17px; 
+
+
+}
+span{
+    color: #060606;
+}
+
+
+var url = require('url');
+var adr = 'http://localhost:8080/default.htm?year=2017&month=february';
+var q = url.parse(adr, true);
+
